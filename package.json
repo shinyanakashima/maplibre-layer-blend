@@ -1,0 +1,24 @@
+{
+  "name": "maplibre-layer-blend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "GIS Blend Laboratory - MapLibre GL JS v6.18+ Layer Blend の検証アプリ",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "verify": "node scripts/verify.mjs",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name maplibre-layer-blend"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "geotiff": "^3.0.5",
+    "maplibre-gl": "^6.19.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.9",
+    "vite": "^8.3.8",
+    "wrangler": "^4.165.0"
+  }
+}

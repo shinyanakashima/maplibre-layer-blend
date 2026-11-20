@@ -1,0 +1,1971 @@
+{
+  "env": {
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.8103.78 Safari/537.36",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "maplibre": "6.19.0",
+    "viewport": "1440x900",
+    "dpr": 1
+  },
+  "pixel": [
+    {
+      "demo": "demo1",
+      "target": "hillshade",
+      "mode": "normal",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          0,
+          59,
+          86,
+          255
+        ],
+        "source": [
+          89,
+          89,
+          89,
+          255
+        ],
+        "actual": [
+          89,
+          89,
+          89,
+          255
+        ],
+        "expected": [
+          89,
+          89,
+          89,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo1",
+      "target": "hillshade",
+      "mode": "normal",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.42,
+      "sample": {
+        "backdrop": [
+          0,
+          59,
+          86,
+          255
+        ],
+        "source": [
+          89,
+          89,
+          89,
+          255
+        ],
+        "actual": [
+          45,
+          74,
+          88,
+          255
+        ],
+        "expected": [
+          45,
+          74,
+          88,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo1",
+      "target": "hillshade",
+      "mode": "multiply",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          0,
+          59,
+          86,
+          255
+        ],
+        "source": [
+          89,
+          89,
+          89,
+          255
+        ],
+        "actual": [
+          0,
+          21,
+          30,
+          255
+        ],
+        "expected": [
+          0,
+          21,
+          30,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo1",
+      "target": "hillshade",
+      "mode": "multiply",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.5,
+      "sample": {
+        "backdrop": [
+          0,
+          59,
+          86,
+          255
+        ],
+        "source": [
+          89,
+          89,
+          89,
+          255
+        ],
+        "actual": [
+          0,
+          40,
+          58,
+          255
+        ],
+        "expected": [
+          0,
+          40,
+          58,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo1",
+      "target": "hillshade",
+      "mode": "screen",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          0,
+          59,
+          86,
+          255
+        ],
+        "source": [
+          89,
+          89,
+          89,
+          255
+        ],
+        "actual": [
+          89,
+          127,
+          145,
+          255
+        ],
+        "expected": [
+          89,
+          127,
+          145,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo1",
+      "target": "hillshade",
+      "mode": "screen",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.25,
+      "sample": {
+        "backdrop": [
+          0,
+          59,
+          86,
+          255
+        ],
+        "source": [
+          89,
+          89,
+          89,
+          255
+        ],
+        "actual": [
+          45,
+          94,
+          116,
+          255
+        ],
+        "expected": [
+          45,
+          93,
+          115,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo1",
+      "target": "hillshade",
+      "mode": "overlay",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          0,
+          59,
+          86,
+          255
+        ],
+        "source": [
+          89,
+          89,
+          89,
+          255
+        ],
+        "actual": [
+          0,
+          41,
+          60,
+          255
+        ],
+        "expected": [
+          0,
+          41,
+          60,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo1",
+      "target": "hillshade",
+      "mode": "overlay",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.25,
+      "sample": {
+        "backdrop": [
+          0,
+          59,
+          86,
+          255
+        ],
+        "source": [
+          89,
+          89,
+          89,
+          255
+        ],
+        "actual": [
+          0,
+          50,
+          73,
+          255
+        ],
+        "expected": [
+          0,
+          50,
+          73,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo1",
+      "target": "hillshade",
+      "mode": "plus-lighter",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          0,
+          59,
+          86,
+          255
+        ],
+        "source": [
+          89,
+          89,
+          89,
+          255
+        ],
+        "actual": [
+          89,
+          148,
+          175,
+          255
+        ],
+        "expected": [
+          89,
+          148,
+          175,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo1",
+      "target": "hillshade",
+      "mode": "plus-lighter",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.17,
+      "sample": {
+        "backdrop": [
+          0,
+          59,
+          86,
+          255
+        ],
+        "source": [
+          89,
+          89,
+          89,
+          255
+        ],
+        "actual": [
+          45,
+          104,
+          131,
+          255
+        ],
+        "expected": [
+          45,
+          104,
+          131,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo1",
+      "target": "hillshade",
+      "mode": "color",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          0,
+          59,
+          86,
+          255
+        ],
+        "source": [
+          89,
+          89,
+          89,
+          255
+        ],
+        "actual": [
+          44,
+          44,
+          44,
+          255
+        ],
+        "expected": [
+          44,
+          44,
+          44,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo1",
+      "target": "hillshade",
+      "mode": "color",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          0,
+          59,
+          86,
+          255
+        ],
+        "source": [
+          89,
+          89,
+          89,
+          255
+        ],
+        "actual": [
+          22,
+          52,
+          65,
+          255
+        ],
+        "expected": [
+          22,
+          52,
+          65,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo1",
+      "target": "hillshade",
+      "mode": "luminosity",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          0,
+          59,
+          86,
+          255
+        ],
+        "source": [
+          89,
+          89,
+          89,
+          255
+        ],
+        "actual": [
+          45,
+          104,
+          131,
+          255
+        ],
+        "expected": [
+          45,
+          104,
+          131,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo1",
+      "target": "hillshade",
+      "mode": "luminosity",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.67,
+      "sample": {
+        "backdrop": [
+          0,
+          59,
+          86,
+          255
+        ],
+        "source": [
+          89,
+          89,
+          89,
+          255
+        ],
+        "actual": [
+          23,
+          82,
+          109,
+          255
+        ],
+        "expected": [
+          22,
+          81,
+          108,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo2",
+      "target": "ndvi",
+      "mode": "normal",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          16,
+          81,
+          104,
+          255
+        ],
+        "source": [
+          2,
+          106,
+          56,
+          255
+        ],
+        "actual": [
+          2,
+          106,
+          56,
+          255
+        ],
+        "expected": [
+          2,
+          106,
+          56,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo2",
+      "target": "ndvi",
+      "mode": "normal",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.5,
+      "sample": {
+        "backdrop": [
+          16,
+          81,
+          104,
+          255
+        ],
+        "source": [
+          2,
+          106,
+          56,
+          255
+        ],
+        "actual": [
+          9,
+          94,
+          80,
+          255
+        ],
+        "expected": [
+          9,
+          94,
+          80,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo2",
+      "target": "ndvi",
+      "mode": "multiply",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          16,
+          81,
+          104,
+          255
+        ],
+        "source": [
+          2,
+          106,
+          56,
+          255
+        ],
+        "actual": [
+          0,
+          34,
+          23,
+          255
+        ],
+        "expected": [
+          0,
+          34,
+          23,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo2",
+      "target": "ndvi",
+      "mode": "multiply",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.33,
+      "sample": {
+        "backdrop": [
+          16,
+          81,
+          104,
+          255
+        ],
+        "source": [
+          2,
+          106,
+          56,
+          255
+        ],
+        "actual": [
+          8,
+          57,
+          63,
+          255
+        ],
+        "expected": [
+          8,
+          57,
+          63,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo2",
+      "target": "ndvi",
+      "mode": "screen",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          16,
+          81,
+          104,
+          255
+        ],
+        "source": [
+          2,
+          106,
+          56,
+          255
+        ],
+        "actual": [
+          18,
+          153,
+          137,
+          255
+        ],
+        "expected": [
+          18,
+          153,
+          137,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo2",
+      "target": "ndvi",
+      "mode": "screen",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.33,
+      "sample": {
+        "backdrop": [
+          16,
+          81,
+          104,
+          255
+        ],
+        "source": [
+          2,
+          106,
+          56,
+          255
+        ],
+        "actual": [
+          17,
+          117,
+          121,
+          255
+        ],
+        "expected": [
+          17,
+          117,
+          121,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo2",
+      "target": "ndvi",
+      "mode": "overlay",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          16,
+          81,
+          104,
+          255
+        ],
+        "source": [
+          2,
+          106,
+          56,
+          255
+        ],
+        "actual": [
+          0,
+          67,
+          46,
+          255
+        ],
+        "expected": [
+          0,
+          67,
+          46,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo2",
+      "target": "ndvi",
+      "mode": "overlay",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.25,
+      "sample": {
+        "backdrop": [
+          16,
+          81,
+          104,
+          255
+        ],
+        "source": [
+          2,
+          106,
+          56,
+          255
+        ],
+        "actual": [
+          8,
+          74,
+          75,
+          255
+        ],
+        "expected": [
+          8,
+          74,
+          75,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo2",
+      "target": "ndvi",
+      "mode": "plus-lighter",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          16,
+          81,
+          104,
+          255
+        ],
+        "source": [
+          2,
+          106,
+          56,
+          255
+        ],
+        "actual": [
+          18,
+          187,
+          160,
+          255
+        ],
+        "expected": [
+          18,
+          187,
+          160,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo2",
+      "target": "ndvi",
+      "mode": "plus-lighter",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.5,
+      "sample": {
+        "backdrop": [
+          16,
+          81,
+          104,
+          255
+        ],
+        "source": [
+          2,
+          106,
+          56,
+          255
+        ],
+        "actual": [
+          17,
+          134,
+          132,
+          255
+        ],
+        "expected": [
+          17,
+          134,
+          132,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo2",
+      "target": "ndvi",
+      "mode": "color",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          16,
+          81,
+          104,
+          255
+        ],
+        "source": [
+          2,
+          106,
+          56,
+          255
+        ],
+        "actual": [
+          0,
+          99,
+          51,
+          255
+        ],
+        "expected": [
+          0,
+          99,
+          51,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo2",
+      "target": "ndvi",
+      "mode": "color",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.67,
+      "sample": {
+        "backdrop": [
+          16,
+          81,
+          104,
+          255
+        ],
+        "source": [
+          2,
+          106,
+          56,
+          255
+        ],
+        "actual": [
+          8,
+          90,
+          78,
+          255
+        ],
+        "expected": [
+          8,
+          90,
+          78,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo2",
+      "target": "ndvi",
+      "mode": "luminosity",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          16,
+          81,
+          104,
+          255
+        ],
+        "source": [
+          2,
+          106,
+          56,
+          255
+        ],
+        "actual": [
+          21,
+          86,
+          109,
+          255
+        ],
+        "expected": [
+          21,
+          86,
+          109,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo2",
+      "target": "ndvi",
+      "mode": "luminosity",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.17,
+      "sample": {
+        "backdrop": [
+          16,
+          81,
+          104,
+          255
+        ],
+        "source": [
+          2,
+          106,
+          56,
+          255
+        ],
+        "actual": [
+          19,
+          84,
+          107,
+          255
+        ],
+        "expected": [
+          19,
+          84,
+          107,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "water",
+      "mode": "normal",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          136,
+          127,
+          122,
+          255
+        ],
+        "source": [
+          30,
+          111,
+          217,
+          255
+        ],
+        "actual": [
+          30,
+          111,
+          217,
+          255
+        ],
+        "expected": [
+          30,
+          111,
+          217,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "water",
+      "mode": "normal",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.17,
+      "sample": {
+        "backdrop": [
+          136,
+          127,
+          122,
+          255
+        ],
+        "source": [
+          30,
+          111,
+          217,
+          255
+        ],
+        "actual": [
+          83,
+          119,
+          170,
+          255
+        ],
+        "expected": [
+          83,
+          119,
+          170,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "water",
+      "mode": "multiply",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          136,
+          127,
+          122,
+          255
+        ],
+        "source": [
+          30,
+          111,
+          217,
+          255
+        ],
+        "actual": [
+          16,
+          55,
+          104,
+          255
+        ],
+        "expected": [
+          16,
+          55,
+          104,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "water",
+      "mode": "multiply",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          136,
+          127,
+          122,
+          255
+        ],
+        "source": [
+          30,
+          111,
+          217,
+          255
+        ],
+        "actual": [
+          76,
+          91,
+          113,
+          255
+        ],
+        "expected": [
+          76,
+          91,
+          113,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "water",
+      "mode": "screen",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          136,
+          127,
+          122,
+          255
+        ],
+        "source": [
+          30,
+          111,
+          217,
+          255
+        ],
+        "actual": [
+          150,
+          183,
+          235,
+          255
+        ],
+        "expected": [
+          150,
+          183,
+          235,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "water",
+      "mode": "screen",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          136,
+          127,
+          122,
+          255
+        ],
+        "source": [
+          30,
+          111,
+          217,
+          255
+        ],
+        "actual": [
+          143,
+          155,
+          179,
+          255
+        ],
+        "expected": [
+          143,
+          155,
+          179,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "water",
+      "mode": "overlay",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          136,
+          127,
+          122,
+          255
+        ],
+        "source": [
+          30,
+          111,
+          217,
+          255
+        ],
+        "actual": [
+          45,
+          111,
+          208,
+          255
+        ],
+        "expected": [
+          45,
+          111,
+          208,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "water",
+      "mode": "overlay",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          136,
+          127,
+          122,
+          255
+        ],
+        "source": [
+          30,
+          111,
+          217,
+          255
+        ],
+        "actual": [
+          91,
+          119,
+          165,
+          255
+        ],
+        "expected": [
+          91,
+          119,
+          165,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "water",
+      "mode": "plus-lighter",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          136,
+          127,
+          122,
+          255
+        ],
+        "source": [
+          30,
+          111,
+          217,
+          255
+        ],
+        "actual": [
+          166,
+          238,
+          255,
+          255
+        ],
+        "expected": [
+          166,
+          238,
+          255,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "water",
+      "mode": "plus-lighter",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.25,
+      "sample": {
+        "backdrop": [
+          136,
+          127,
+          122,
+          255
+        ],
+        "source": [
+          30,
+          111,
+          217,
+          255
+        ],
+        "actual": [
+          151,
+          183,
+          231,
+          255
+        ],
+        "expected": [
+          151,
+          183,
+          231,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "water",
+      "mode": "color",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          136,
+          127,
+          122,
+          255
+        ],
+        "source": [
+          30,
+          111,
+          217,
+          255
+        ],
+        "actual": [
+          61,
+          142,
+          248,
+          255
+        ],
+        "expected": [
+          61,
+          142,
+          248,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "water",
+      "mode": "color",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.08,
+      "sample": {
+        "backdrop": [
+          136,
+          127,
+          122,
+          255
+        ],
+        "source": [
+          30,
+          111,
+          217,
+          255
+        ],
+        "actual": [
+          98,
+          134,
+          185,
+          255
+        ],
+        "expected": [
+          98,
+          134,
+          185,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "water",
+      "mode": "luminosity",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          136,
+          127,
+          122,
+          255
+        ],
+        "source": [
+          30,
+          111,
+          217,
+          255
+        ],
+        "actual": [
+          105,
+          96,
+          91,
+          255
+        ],
+        "expected": [
+          105,
+          96,
+          91,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "water",
+      "mode": "luminosity",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          136,
+          127,
+          122,
+          255
+        ],
+        "source": [
+          30,
+          111,
+          217,
+          255
+        ],
+        "actual": [
+          121,
+          112,
+          107,
+          255
+        ],
+        "expected": [
+          121,
+          112,
+          107,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "roads",
+      "mode": "normal",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          166,
+          153,
+          163,
+          255
+        ],
+        "source": [
+          255,
+          122,
+          26,
+          255
+        ],
+        "actual": [
+          255,
+          122,
+          26,
+          255
+        ],
+        "expected": [
+          255,
+          122,
+          26,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "roads",
+      "mode": "normal",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.33,
+      "sample": {
+        "backdrop": [
+          166,
+          153,
+          163,
+          255
+        ],
+        "source": [
+          255,
+          122,
+          26,
+          255
+        ],
+        "actual": [
+          211,
+          138,
+          94,
+          255
+        ],
+        "expected": [
+          211,
+          138,
+          94,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "roads",
+      "mode": "multiply",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          166,
+          153,
+          163,
+          255
+        ],
+        "source": [
+          255,
+          122,
+          26,
+          255
+        ],
+        "actual": [
+          166,
+          73,
+          17,
+          255
+        ],
+        "expected": [
+          166,
+          73,
+          17,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "roads",
+      "mode": "multiply",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          166,
+          153,
+          163,
+          255
+        ],
+        "source": [
+          255,
+          122,
+          26,
+          255
+        ],
+        "actual": [
+          166,
+          113,
+          90,
+          255
+        ],
+        "expected": [
+          166,
+          113,
+          90,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "roads",
+      "mode": "screen",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          166,
+          153,
+          163,
+          255
+        ],
+        "source": [
+          255,
+          122,
+          26,
+          255
+        ],
+        "actual": [
+          255,
+          202,
+          172,
+          255
+        ],
+        "expected": [
+          255,
+          202,
+          172,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "roads",
+      "mode": "screen",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.17,
+      "sample": {
+        "backdrop": [
+          166,
+          153,
+          163,
+          255
+        ],
+        "source": [
+          255,
+          122,
+          26,
+          255
+        ],
+        "actual": [
+          211,
+          177,
+          168,
+          255
+        ],
+        "expected": [
+          211,
+          177,
+          168,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "roads",
+      "mode": "overlay",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          166,
+          153,
+          163,
+          255
+        ],
+        "source": [
+          255,
+          122,
+          26,
+          255
+        ],
+        "actual": [
+          255,
+          149,
+          90,
+          255
+        ],
+        "expected": [
+          255,
+          149,
+          90,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "roads",
+      "mode": "overlay",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 1,
+      "meanDiff": 0.08,
+      "sample": {
+        "backdrop": [
+          166,
+          153,
+          163,
+          255
+        ],
+        "source": [
+          255,
+          122,
+          26,
+          255
+        ],
+        "actual": [
+          211,
+          151,
+          126,
+          255
+        ],
+        "expected": [
+          210,
+          151,
+          126,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "roads",
+      "mode": "plus-lighter",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          166,
+          153,
+          163,
+          255
+        ],
+        "source": [
+          255,
+          122,
+          26,
+          255
+        ],
+        "actual": [
+          255,
+          255,
+          189,
+          255
+        ],
+        "expected": [
+          255,
+          255,
+          189,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "roads",
+      "mode": "plus-lighter",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          166,
+          153,
+          163,
+          255
+        ],
+        "source": [
+          255,
+          122,
+          26,
+          255
+        ],
+        "actual": [
+          255,
+          214,
+          176,
+          255
+        ],
+        "expected": [
+          255,
+          214,
+          176,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "roads",
+      "mode": "color",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          166,
+          153,
+          163,
+          255
+        ],
+        "source": [
+          255,
+          122,
+          26,
+          255
+        ],
+        "actual": [
+          255,
+          131,
+          41,
+          255
+        ],
+        "expected": [
+          255,
+          131,
+          41,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "roads",
+      "mode": "color",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          166,
+          153,
+          163,
+          255
+        ],
+        "source": [
+          255,
+          122,
+          26,
+          255
+        ],
+        "actual": [
+          211,
+          142,
+          102,
+          255
+        ],
+        "expected": [
+          211,
+          142,
+          102,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "roads",
+      "mode": "luminosity",
+      "opacity": 1,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          166,
+          153,
+          163,
+          255
+        ],
+        "source": [
+          255,
+          122,
+          26,
+          255
+        ],
+        "actual": [
+          159,
+          146,
+          156,
+          255
+        ],
+        "expected": [
+          159,
+          146,
+          156,
+          255
+        ]
+      }
+    },
+    {
+      "demo": "demo3",
+      "target": "roads",
+      "mode": "luminosity",
+      "opacity": 0.5,
+      "points": 12,
+      "maxDiff": 0,
+      "meanDiff": 0,
+      "sample": {
+        "backdrop": [
+          166,
+          153,
+          163,
+          255
+        ],
+        "source": [
+          255,
+          122,
+          26,
+          255
+        ],
+        "actual": [
+          163,
+          150,
+          160,
+          255
+        ],
+        "expected": [
+          163,
+          150,
+          160,
+          255
+        ]
+      }
+    }
+  ]
+}

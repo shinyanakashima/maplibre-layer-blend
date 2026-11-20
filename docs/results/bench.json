@@ -1,0 +1,437 @@
+[
+  {
+    "demo": "demo1",
+    "target": "hillshade",
+    "env": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.8103.78 Safari/537.36",
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "vendor": "Google Inc. (Google)",
+      "canvas": "539×844px",
+      "devicePixelRatio": 1,
+      "maplibre": "6.19.0",
+      "date": "2026-11-20T09:09:04.333Z"
+    },
+    "rows": [
+      {
+        "mode": "normal",
+        "opacity": 1,
+        "layers": 1,
+        "frames": 60,
+        "avgMs": 26.81,
+        "p95Ms": 32.4,
+        "equivFps": 37.3
+      },
+      {
+        "mode": "multiply",
+        "opacity": 1,
+        "layers": 1,
+        "frames": 60,
+        "avgMs": 33.22,
+        "p95Ms": 45.2,
+        "equivFps": 30.1
+      },
+      {
+        "mode": "screen",
+        "opacity": 1,
+        "layers": 1,
+        "frames": 60,
+        "avgMs": 28.53,
+        "p95Ms": 36.4,
+        "equivFps": 35.1
+      },
+      {
+        "mode": "overlay",
+        "opacity": 1,
+        "layers": 1,
+        "frames": 60,
+        "avgMs": 33.22,
+        "p95Ms": 43.5,
+        "equivFps": 30.1
+      },
+      {
+        "mode": "plus-lighter",
+        "opacity": 1,
+        "layers": 1,
+        "frames": 60,
+        "avgMs": 32.83,
+        "p95Ms": 44.6,
+        "equivFps": 30.5
+      },
+      {
+        "mode": "color",
+        "opacity": 1,
+        "layers": 1,
+        "frames": 60,
+        "avgMs": 33.02,
+        "p95Ms": 39.5,
+        "equivFps": 30.3
+      },
+      {
+        "mode": "luminosity",
+        "opacity": 1,
+        "layers": 1,
+        "frames": 60,
+        "avgMs": 33.64,
+        "p95Ms": 46,
+        "equivFps": 29.7
+      },
+      {
+        "mode": "normal",
+        "opacity": 1,
+        "layers": 4,
+        "frames": 60,
+        "avgMs": 51.05,
+        "p95Ms": 65.3,
+        "equivFps": 19.6
+      },
+      {
+        "mode": "multiply",
+        "opacity": 1,
+        "layers": 4,
+        "frames": 60,
+        "avgMs": 71.75,
+        "p95Ms": 92,
+        "equivFps": 13.9
+      },
+      {
+        "mode": "screen",
+        "opacity": 1,
+        "layers": 4,
+        "frames": 60,
+        "avgMs": 74.14,
+        "p95Ms": 90.7,
+        "equivFps": 13.5
+      },
+      {
+        "mode": "overlay",
+        "opacity": 1,
+        "layers": 4,
+        "frames": 60,
+        "avgMs": 72.5,
+        "p95Ms": 99.5,
+        "equivFps": 13.8
+      },
+      {
+        "mode": "plus-lighter",
+        "opacity": 1,
+        "layers": 4,
+        "frames": 60,
+        "avgMs": 64.02,
+        "p95Ms": 85.4,
+        "equivFps": 15.6
+      },
+      {
+        "mode": "color",
+        "opacity": 1,
+        "layers": 4,
+        "frames": 60,
+        "avgMs": 70.85,
+        "p95Ms": 80.4,
+        "equivFps": 14.1
+      },
+      {
+        "mode": "luminosity",
+        "opacity": 1,
+        "layers": 4,
+        "frames": 60,
+        "avgMs": 68.67,
+        "p95Ms": 81.7,
+        "equivFps": 14.6
+      },
+      {
+        "mode": "normal",
+        "opacity": 1,
+        "layers": 8,
+        "frames": 60,
+        "avgMs": 86.34,
+        "p95Ms": 110.1,
+        "equivFps": 11.6
+      },
+      {
+        "mode": "multiply",
+        "opacity": 1,
+        "layers": 8,
+        "frames": 60,
+        "avgMs": 129.44,
+        "p95Ms": 177.4,
+        "equivFps": 7.7
+      },
+      {
+        "mode": "screen",
+        "opacity": 1,
+        "layers": 8,
+        "frames": 60,
+        "avgMs": 106.42,
+        "p95Ms": 130.3,
+        "equivFps": 9.4
+      },
+      {
+        "mode": "overlay",
+        "opacity": 1,
+        "layers": 8,
+        "frames": 60,
+        "avgMs": 133.45,
+        "p95Ms": 170.8,
+        "equivFps": 7.5
+      },
+      {
+        "mode": "plus-lighter",
+        "opacity": 1,
+        "layers": 8,
+        "frames": 60,
+        "avgMs": 114.33,
+        "p95Ms": 140.2,
+        "equivFps": 8.7
+      },
+      {
+        "mode": "color",
+        "opacity": 1,
+        "layers": 8,
+        "frames": 60,
+        "avgMs": 135.75,
+        "p95Ms": 175.9,
+        "equivFps": 7.4
+      },
+      {
+        "mode": "luminosity",
+        "opacity": 1,
+        "layers": 8,
+        "frames": 60,
+        "avgMs": 138.39,
+        "p95Ms": 163,
+        "equivFps": 7.2
+      }
+    ]
+  },
+  {
+    "demo": "demo3",
+    "target": "roads",
+    "env": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.8103.78 Safari/537.36",
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "vendor": "Google Inc. (Google)",
+      "canvas": "539×844px",
+      "devicePixelRatio": 1,
+      "maplibre": "6.19.0",
+      "date": "2026-11-20T09:11:21.829Z"
+    },
+    "rows": [
+      {
+        "mode": "normal",
+        "opacity": 1,
+        "layers": 1,
+        "frames": 60,
+        "avgMs": 38.83,
+        "p95Ms": 51.6,
+        "equivFps": 25.8
+      },
+      {
+        "mode": "normal",
+        "opacity": 0.8,
+        "layers": 1,
+        "frames": 60,
+        "avgMs": 43.21,
+        "p95Ms": 56.4,
+        "equivFps": 23.1
+      },
+      {
+        "mode": "multiply",
+        "opacity": 1,
+        "layers": 1,
+        "frames": 60,
+        "avgMs": 43.71,
+        "p95Ms": 56.2,
+        "equivFps": 22.9
+      },
+      {
+        "mode": "screen",
+        "opacity": 1,
+        "layers": 1,
+        "frames": 60,
+        "avgMs": 42.81,
+        "p95Ms": 55.7,
+        "equivFps": 23.4
+      },
+      {
+        "mode": "overlay",
+        "opacity": 1,
+        "layers": 1,
+        "frames": 60,
+        "avgMs": 43.32,
+        "p95Ms": 53.3,
+        "equivFps": 23.1
+      },
+      {
+        "mode": "plus-lighter",
+        "opacity": 1,
+        "layers": 1,
+        "frames": 60,
+        "avgMs": 42.98,
+        "p95Ms": 57.2,
+        "equivFps": 23.3
+      },
+      {
+        "mode": "color",
+        "opacity": 1,
+        "layers": 1,
+        "frames": 60,
+        "avgMs": 45.32,
+        "p95Ms": 58.3,
+        "equivFps": 22.1
+      },
+      {
+        "mode": "luminosity",
+        "opacity": 1,
+        "layers": 1,
+        "frames": 60,
+        "avgMs": 48.34,
+        "p95Ms": 61.6,
+        "equivFps": 20.7
+      },
+      {
+        "mode": "normal",
+        "opacity": 1,
+        "layers": 4,
+        "frames": 60,
+        "avgMs": 40.59,
+        "p95Ms": 53.1,
+        "equivFps": 24.6
+      },
+      {
+        "mode": "normal",
+        "opacity": 0.8,
+        "layers": 4,
+        "frames": 60,
+        "avgMs": 48.05,
+        "p95Ms": 61.6,
+        "equivFps": 20.8
+      },
+      {
+        "mode": "multiply",
+        "opacity": 1,
+        "layers": 4,
+        "frames": 60,
+        "avgMs": 88.4,
+        "p95Ms": 113.9,
+        "equivFps": 11.3
+      },
+      {
+        "mode": "screen",
+        "opacity": 1,
+        "layers": 4,
+        "frames": 60,
+        "avgMs": 82.01,
+        "p95Ms": 101.6,
+        "equivFps": 12.2
+      },
+      {
+        "mode": "overlay",
+        "opacity": 1,
+        "layers": 4,
+        "frames": 60,
+        "avgMs": 92.7,
+        "p95Ms": 123.4,
+        "equivFps": 10.8
+      },
+      {
+        "mode": "plus-lighter",
+        "opacity": 1,
+        "layers": 4,
+        "frames": 60,
+        "avgMs": 85.44,
+        "p95Ms": 114.5,
+        "equivFps": 11.7
+      },
+      {
+        "mode": "color",
+        "opacity": 1,
+        "layers": 4,
+        "frames": 60,
+        "avgMs": 86.85,
+        "p95Ms": 98.6,
+        "equivFps": 11.5
+      },
+      {
+        "mode": "luminosity",
+        "opacity": 1,
+        "layers": 4,
+        "frames": 60,
+        "avgMs": 97.77,
+        "p95Ms": 122.4,
+        "equivFps": 10.2
+      },
+      {
+        "mode": "normal",
+        "opacity": 1,
+        "layers": 8,
+        "frames": 60,
+        "avgMs": 69.72,
+        "p95Ms": 86.9,
+        "equivFps": 14.3
+      },
+      {
+        "mode": "normal",
+        "opacity": 0.8,
+        "layers": 8,
+        "frames": 60,
+        "avgMs": 132.69,
+        "p95Ms": 181.8,
+        "equivFps": 7.5
+      },
+      {
+        "mode": "multiply",
+        "opacity": 1,
+        "layers": 8,
+        "frames": 60,
+        "avgMs": 133.19,
+        "p95Ms": 161.1,
+        "equivFps": 7.5
+      },
+      {
+        "mode": "screen",
+        "opacity": 1,
+        "layers": 8,
+        "frames": 60,
+        "avgMs": 136.8,
+        "p95Ms": 164.2,
+        "equivFps": 7.3
+      },
+      {
+        "mode": "overlay",
+        "opacity": 1,
+        "layers": 8,
+        "frames": 60,
+        "avgMs": 149.14,
+        "p95Ms": 176.4,
+        "equivFps": 6.7
+      },
+      {
+        "mode": "plus-lighter",
+        "opacity": 1,
+        "layers": 8,
+        "frames": 60,
+        "avgMs": 140.72,
+        "p95Ms": 162.5,
+        "equivFps": 7.1
+      },
+      {
+        "mode": "color",
+        "opacity": 1,
+        "layers": 8,
+        "frames": 60,
+        "avgMs": 157.19,
+        "p95Ms": 193.9,
+        "equivFps": 6.4
+      },
+      {
+        "mode": "luminosity",
+        "opacity": 1,
+        "layers": 8,
+        "frames": 60,
+        "avgMs": 158.25,
+        "p95Ms": 191.3,
+        "equivFps": 6.3
+      }
+    ]
+  }
+]
