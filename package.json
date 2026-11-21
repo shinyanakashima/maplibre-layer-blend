@@ -8,8 +8,7 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "verify": "node scripts/verify.mjs",
-    "deploy": "npm run build && wrangler pages deploy dist --project-name maplibre-layer-blend"
+    "verify": "node scripts/verify.mjs"
   },
   "license": "MIT",
   "dependencies": {
@@ -18,7 +17,6 @@
   },
   "devDependencies": {
     "typescript": "~5.9",
-    "vite": "^8.3.8",
-    "wrangler": "^4.165.0"
+    "vite": "^8.3.8"
   }
 }

@@ -109,19 +109,13 @@ Cs＝上のレイヤー、Cb＝下地（0〜1）。分離型は RGB 各チャン
 
 疑似データは使用していません。NDVI は実データですが、上記の加工（再サンプリング・量子化）を行っています。
 
-## デプロイ（Cloudflare Pages）
+## デプロイ（GitHub Pages）
 
-静的サイトとして `dist/` を配信します。設定は `wrangler.toml` と `public/_headers`。
+`main` への push で `.github/workflows/deploy.yml` が動き、`npm run build` の成果物（`dist/`）を GitHub Pages に公開します。
+ビルドは相対パス（`vite.config.ts` の `base: './'`）なので、`https://<user>.github.io/maplibre-layer-blend/` のようなサブパスでもそのまま動きます。
 
-```bash
-npx wrangler login
-```
-
-```bash
-npm run deploy
-```
-
-Cloudflare のダッシュボードから Git 連携する場合は、ビルドコマンド `npm run build`、出力ディレクトリ `dist`、環境変数 `NODE_VERSION=22` を指定します。
+初回のみ、リポジトリの Settings → Pages → Build and deployment の Source を「GitHub Actions」にしてください。
+private リポジトリで Pages を使うには GitHub Pro / Team 以上のプランが必要で、公開されたサイト自体は誰でも閲覧できます。
 
 ## ファイル構成
 
@@ -136,6 +130,7 @@ src/
   ndvi.ts         GeoTIFF 読み込みとカラーマップ
   state.ts        デモシナリオと状態
 scripts/verify.mjs  Playwright による検証
+.github/workflows/deploy.yml  GitHub Pages へのデプロイ
 docs/article.md     Advent Calendar 記事の下書き
 ```
 

@@ -1,5 +1,0 @@
-# Cloudflare Pages（静的サイト）設定
-# デプロイ: npm run deploy  （初回は `npx wrangler login` が必要）
-name = "maplibre-layer-blend"
-pages_build_output_dir = "dist"
-compatibility_date = "2026-11-01"
