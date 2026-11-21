@@ -1,4 +1,4 @@
-import {fromUrl} from 'geotiff';
+import {fromArrayBuffer} from 'geotiff';
 
 /** GeoTIFF の範囲（EPSG:4326, west, south, east, north）。public/data のファイルと一致させる */
 export const NDVI_BOUNDS: [number, number, number, number] = [143.0, 42.84, 143.32, 43.02];
@@ -73,7 +73,11 @@ export interface NdviRaster {
 }
 
 export async function loadNdvi(): Promise<NdviRaster> {
-  const tiff = await fromUrl(NDVI_URL);
+  // fromUrl は HTTP Range を前提にするが、配信先によっては Range に応答せず全体を返す（wrangler pages dev で確認）。
+  // ファイルは約 2MB で全画素を使うため、まとめて取得してから解析する
+  const res = await fetch(NDVI_URL);
+  if (!res.ok) throw new Error(`NDVI の取得に失敗しました: ${res.status}`);
+  const tiff = await fromArrayBuffer(await res.arrayBuffer());
   const image = await tiff.getImage();
   const rasters = await image.readRasters({interleave: false});
   const band = rasters[0] as Int16Array;
