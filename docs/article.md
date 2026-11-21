@@ -7,7 +7,7 @@ MapLibre GL JS v6.18.0 で、レイヤーの合成方法を指定する `raster-
 
 公式サンプルはポリゴン 1 枚のデモなので、今回は十勝地方の航空写真・陰影起伏図・NDVI・道路データを使って、従来の Opacity による重ね合わせと何が違うのかを、見た目と画素値の両方で確かめました。
 
-- デモ：（GitHub Pages の URL）
+- デモ：https://shinyanakashima.github.io/maplibre-layer-blend/
 - リポジトリ：https://github.com/shinyanakashima/maplibre-layer-blend
 
 ![デモ1](screenshots/demo1.jpg)

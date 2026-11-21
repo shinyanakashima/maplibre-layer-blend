@@ -3,6 +3,8 @@
 MapLibre GL JS v6.18 で追加された Layer Blend（`raster-layer-blend` / `fill-layer-blend` / `line-layer-blend`）を、十勝地方の GIS データで検証する Web アプリです。
 同じ地点を「通常合成（Opacity）」と「Layer Blend」の 2 画面で同期表示し、ブレンドモード・不透明度・描画順序を変えながら見た目と画素値を比較できます。
 
+公開URL：https://shinyanakashima.github.io/maplibre-layer-blend/
+
 ![デモ1 航空写真×陰影起伏図](docs/screenshots/demo1.jpg)
 
 ## 機能
@@ -115,7 +117,6 @@ Cs＝上のレイヤー、Cb＝下地（0〜1）。分離型は RGB 各チャン
 ビルドは相対パス（`vite.config.ts` の `base: './'`）なので、`https://<user>.github.io/maplibre-layer-blend/` のようなサブパスでもそのまま動きます。
 
 初回のみ、リポジトリの Settings → Pages → Build and deployment の Source を「GitHub Actions」にしてください。
-private リポジトリで Pages を使うには GitHub Pro / Team 以上のプランが必要で、公開されたサイト自体は誰でも閲覧できます。
 
 ## ファイル構成
 
